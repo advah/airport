@@ -1,0 +1,183 @@
+.container--main {
+    flex-direction: row;
+}
+
+
+
+/* боковое меню */
+
+.aside {
+    width: 160px;
+}
+
+.nav {
+    font-size: 12px;
+    font-family: "roboto";
+    color: rgb(75, 115, 181);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 4.5;
+}
+
+.nav__item {
+      
+}
+
+.nav__item::before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.nav__item:hover .nav__ref {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav__item--main::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    0 0 no-repeat;
+}
+
+.nav__item--main:hover::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    -200px 0 no-repeat;
+}
+
+.nav__item--reviews::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    0 -100px no-repeat;
+}
+
+.nav__item--reviews:hover::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    -200px -100px no-repeat;
+}
+
+.nav__item--team::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    0 -200px no-repeat;
+}
+
+.nav__item--team:hover::before {
+    background: url('../img/icons/sprite_nav_icon.png')
+    -200px -200px no-repeat;
+}
+
+
+
+.content-block {
+    width: 900px;
+}
+
+
+.heroimg {
+    width: 900px;
+    height: 300px;
+    background: url('../img/airplane.jpg') no-repeat;
+}
+
+
+
+
+/* секция Тарифы */
+
+.tariffs__list {
+    display: flex;
+}
+
+.tariffs__item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tariffs__icoblock {
+    width: 70px;
+    height: 70px;
+    background-color: #4b73b5;
+    border-radius: 50%;
+}
+
+.tariffs__icoblock--standart {
+    background: url('../img/standart.png') 
+        center center no-repeat;
+}
+
+.tariffs__icoblock--premium {
+    background: url('../img/premium.png') 
+        center center no-repeat;
+}
+
+.tariffs__icoblock--luxury {
+    background: url('../img/luxury.png') 
+        center center no-repeat;
+}
+
+.tariffs__text {
+    text-align: center;
+}
+
+.tariffs__content-item {
+
+}
+
+.tariffs__content-item::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    margin-right: 5px;
+    background: #000;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.tariffs__price {
+    width: 76px;
+    height: 42px;
+}
+
+.tariffs__price--standart {
+    background: url('../img/$19.png')
+        center center no-repeat;
+}
+
+.tariffs__price--premium {
+    background: url('../img/$39.png')
+        center center no-repeat;
+}
+
+.tariffs__price--luxury {
+    background: url('../img/$99.png')
+        center center no-repeat;
+}
+
+
+
+/* последние новости */
+
+.lastnews__item {
+    display: flex;
+}
+
+.lastnews__imgblock {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.lastnews__img {
+    width: 100%;
+    height: 100%;
+}
+
+.lastnews__content-block {
+    width: 740px;
+}

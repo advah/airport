@@ -1,11 +1,25 @@
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;   
+}
+
 .container {
     display: flex;
     flex-direction: column;
     width: 1060px;
 }
 
-.container--row {
+.container--header-footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.maintitle {
+    font-size: 49px;
+    font-family: "roboto";
+    color: rgb(34, 31, 31);
+    font-weight: 700;
+      
 }
