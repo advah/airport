@@ -1,0 +1,75 @@
+
+.footer__content {
+    width: 240px;
+}
+
+
+
+/* социалки */
+
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__ref {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.socials__ref--vk {
+    background: url('../img/css_sprites.png') 
+    -352px -106px;
+}
+
+.socials__ref--fb {
+    background: url('../img/css_sprites.png') 
+    -352px -126px;
+}
+
+.socials__ref--g {
+    background: url('../img/css_sprites.png') 
+    -352px -146px;
+}
+
+.socials__ref--tw {
+    background: url('../img/css_sprites.png') 
+    -352px -166px;
+}
+
+.socials__ref--m {
+    background: url('../img/css_sprites.png') 
+    -352px -186px;
+}
+
+
+/* социалки hover */
+
+.socials__ref--vk:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -106px;
+}
+
+.socials__ref--fb:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -126px;
+}
+
+.socials__ref--g:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -146px;
+}
+
+.socials__ref--tw:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -166px;
+}
+
+.socials__ref--m:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -186px;
+}
