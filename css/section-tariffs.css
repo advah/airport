@@ -8,8 +8,14 @@
 
 /* секция Тарифы */
 
+.tariffs {
+    margin-bottom: 92px;
+}
+
 .tariffs__list {
     display: flex;
+    align-items: flex-start;
+    padding-top: 60px;
 }
 
 .tariffs__item {
@@ -17,6 +23,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 20px;
+}
+
+.tariffs__item:last-child {
+    margin-right: 0;
 }
 
 .tariffs__icoblock {
@@ -24,6 +35,7 @@
     height: 70px;
     background-color: #4b73b5;
     border-radius: 50%;
+    margin-bottom: 32px;
 }
 
 .tariffs__icoblock--standart {
@@ -41,12 +53,30 @@
         center center no-repeat;
 }
 
+.tariffs__title {
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 19px;
+}
+
+.tariffs__content {
+    width: 100%;
+}
+
 .tariffs__text {
     text-align: center;
+    margin-bottom: 15px;
+}
+
+.tariffs__content-list {
+    margin: 0 0 30px 26px;
 }
 
 .tariffs__content-item {
-
+    margin-bottom: 9px;
 }
 
 .tariffs__content-item::before {
@@ -54,7 +84,7 @@
     width: 4px;
     height: 4px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 22px;
     background: #000;
     border-radius: 50%;
     vertical-align: middle;
@@ -82,24 +112,49 @@
 
 
 
-/* последние новости */
+/* article */
+.article__list {
 
-.lastnews__item {
-    display: flex;
 }
 
-.lastnews__imgblock {
+.article__item {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.article__imgblock {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
+    margin-right: 18px;
 }
 
-.lastnews__img {
+.article__img {
     width: 100%;
     height: 100%;
 }
 
-.lastnews__content-block {
+.article__content-block {
     width: 740px;
 }
+
+.article__date {
+    font-size: 14px;
+    color: rgb(101, 100, 100);
+    margin-bottom: 3px;    
+}
+
+.article__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.article__text {
+    font-size: 18px;
+    font-family: "roboto";
+    color: rgb(101, 100, 100);
+    line-height: 1.7;
+}
+  

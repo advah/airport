@@ -1,14 +1,34 @@
 
 .footer__content {
     width: 240px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.286; 
+}
+
+.footer__content-ref {
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__content-ref:hover {
+    text-decoration: underline;
 }
 
 
 
 /* социалки */
 
+.socials__title {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+
 .socials__list {
-    display: flex;
+    display: flex;     
 }
 
 .socials__item {
@@ -19,57 +39,41 @@
     display: block;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
+    background-color: #d2def3;
+    transition: .5s;
+}
+
+.socials__ref:hover {
+    background-color: #fff;
 }
 
 .socials__ref--vk {
-    background: url('../img/css_sprites.png') 
-    -352px -106px;
+    background-image: url('../img/icons/css_sprites.png'); 
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
 }
 
 .socials__ref--fb {
-    background: url('../img/css_sprites.png') 
-    -352px -126px;
+    background-image: url('../img/icons/css_sprites.png'); 
+    background-repeat: no-repeat; 
+    background-position: 6px -110px;
 }
 
 .socials__ref--g {
-    background: url('../img/css_sprites.png') 
-    -352px -146px;
+    background-image: url('../img/icons/css_sprites.png'); 
+    background-repeat: no-repeat; 
+    background-position: 3px -21px;
 }
 
 .socials__ref--tw {
-    background: url('../img/css_sprites.png') 
-    -352px -166px;
+    background-image: url('../img/icons/css_sprites.png'); 
+    background-repeat: no-repeat; 
+    background-position: 4px -79px;
 }
 
 .socials__ref--m {
-    background: url('../img/css_sprites.png') 
-    -352px -186px;
-}
-
-
-/* социалки hover */
-
-.socials__ref--vk:hover {
-    background: url('../img/css_sprites.png') 
-    -332px -106px;
-}
-
-.socials__ref--fb:hover {
-    background: url('../img/css_sprites.png') 
-    -332px -126px;
-}
-
-.socials__ref--g:hover {
-    background: url('../img/css_sprites.png') 
-    -332px -146px;
-}
-
-.socials__ref--tw:hover {
-    background: url('../img/css_sprites.png') 
-    -332px -166px;
-}
-
-.socials__ref--m:hover {
-    background: url('../img/css_sprites.png') 
-    -332px -186px;
+    background-image: url('../img/icons/css_sprites.png'); 
+    background-repeat: no-repeat; 
+    background-position: 4px -50px;
 }

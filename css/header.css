@@ -7,14 +7,6 @@
     background: #4b73b5;
 }
 
-.logo__ref {
-    display: block;
-    width: 120px;
-    height: 36px;
-    background: url('../img/logo.png')
-        center center no-repeat;
-}
-
 .contacts__phone {
     display: block;
     font-size: 21px;
@@ -31,7 +23,6 @@
 .contacts__schedule {
     position: relative;
     font-size: 14px;
-    font-family: "roboto";
     color: rgba(255, 255, 255, 0.702);
     font-weight: 700;
     text-decoration: underline;
